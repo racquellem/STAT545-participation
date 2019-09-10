@@ -14,7 +14,11 @@ library(DT)
 ## Print out gapminder data:
 
 ```{r}
-x <- gapminder
+x<-gapminder
+```
+
+```{r}
+datatable(as_tibble(x))
 ```
 
 <!--This is a comment-->
