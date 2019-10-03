@@ -9,7 +9,7 @@ output:
 ---
 
 In this worksheet, we'll be looking at some erroneous plots and fixing them. 
-
+=['/]
 I think you might not have these two packages installed:
 
 ```
@@ -155,13 +155,26 @@ gapminder %>%
 
 We're starting with the same plot as above, but instead of the points + boxplot, try a ridge plot instead using `ggridges::geom_density_ridges()`, and adjust the `bandwidth`.
 
-```{r, fig.width = 5, fig.height = 2}
+```{r, fig.width = 10, fig.height = 10}
 gapminder %>% 
   filter(continent == "Americas") %>% 
   ggplot(aes(country, lifeExp)) + 
   geom_point() +
   geom_boxplot()
 ```
+
+
+```{r, fig.width = 10, fig.height = 10}
+gapminder %>% 
+  filter(continent == "Americas") %>% 
+  ggplot(aes(lifeExp, country)) + 
+  ggridges::geom_density_ridges()
+```
+
+vertical to horizontal, need change x and y
+
+geom_rug()?
+
 
 ## Exercise 6: Bar plot madness
 
