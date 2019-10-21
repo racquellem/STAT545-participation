@@ -1,8 +1,10 @@
 ---
-title: "rm013_ModelFitting"
+title: "rm014_ModelFitting"
 author: "Racquelle Sabrina Mangahas"
 date: "17/10/2019"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -129,11 +131,11 @@ summary(my_lm)
 ```
 
 ```{r}
-tidy(my_lim)
+tidy(my_lm)
 ```
 
 ```{r}
-lm_resid <-augment(my_lim)
+lm_resid <-augment(my_lm)
 ggplot(lm_resid, aes(.resid)) + geom_freqpoly(binwidth=0.5)
 ```
 
@@ -150,10 +152,11 @@ plot(my_lm)
 ```
 
 Or we can predict on a new dataset:
-```{r}
+
+#did not finish chunk below, had to make it normal text in order to knit 
 years1 = FILL_THIS_IN
 predict(my_lm,years1)
-```
+
 
 
 
@@ -179,33 +182,36 @@ Now we will try to fit a second degree polynomial and see what would that look l
 ggplot(gapminder_Zimbabwe, aes(year, lifeExp)) + geom_point()+geom_smooth(method= "lm", formula= y~ poly (I(year-1952), degree= 2))
 ```
 
-```{r}
+#did not finish chunk below, had to make it normal text in order to knit 
 lm_linear <- lm(data = gapminder,formula = FILL_THIS_IN)
 lm_poly <- lm(data = gapminder,formula = FILL_THIS_IN))
-```
+
+
+
+#did not finish chunk below, had to make it normal text in order to knit 
 `anova` lets you compare between different models.
-```{r}
+
 anova(lm_linear,lm_poly)
-```
+
 ## Regression with categorical variables
 
-```{r}
+
 (lm_cat <- lm(gdpPercap ~ I(year - 1952) + continent, data = gapminder))
-```
+
 How did R know that continent was a categorical variable?
-```{r}
+
 class(gapminder$continent)
 levels(gapminder$continent)
 contrasts(gapminder$continent)
-```
+
 How can we change the reference level?
-```{r}
+
 gapminder$continent <- relevel(gapminder$continent, ref = "Oceania")
-```
+
 Let's build a new model
-```{r}
+
 lm_cat2 <- lm(gdpPercap ~ I(year - 1952) + continent, data = gapminder)
-```
+
 
 
 

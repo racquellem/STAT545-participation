@@ -1,15 +1,18 @@
 ---
 title: "Tibble Exploration"
-output: 
+output:
+  pdf_document:
+    toc: yes
   html_document:
-    toc: true
-    number_sections: true
+    number_sections: yes
     theme: cerulean
+    toc: yes
 ---
 ```{r load,warning=FALSE, echo=FALSE}
 library(tibble)
 library(gapminder)
 library(DT)
+tinytex::install_tinytex()
 ```
 
 
