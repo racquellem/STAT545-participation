@@ -18,7 +18,6 @@ Below are the links to the corresponding html files that have been produced thro
 
 ### Class Meeting 5 (Intro to plotting with ggplot2, Part I)
 - [HTML_ggplot, I](https://racquellem.github.io/STAT545-participation/Class%20Meeting%205%20Intro%20to%20plotting%20with%20ggplot2%2C%20Part%20I/rm005_ggplot_intro.html)
-- [HTML_ggplot, I_Figures](https://racquellem.github.io/STAT545-participation/Class%20Meeting%205%20Intro%20to%20plotting%20with%20ggplot2%2C%20Part%20I/rm005_ggplot_intro/figure-html)
 
 ### Class Meeting 6 (Intro to data wrangling, Part I)
 - [HTML_Intro data wrangling, I](https://racquellem.github.io/STAT545-participation/Class%20Meeting%206%20Intro%20to%20data%20wrangling%2C%20Part%20I/rm006_dplyr-exercise.html)
