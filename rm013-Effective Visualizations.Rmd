@@ -2,7 +2,9 @@
 title: "rm013- Effective Visualizations"
 author: "Racquelle Sabrina Mangahas"
 date: "15/10/2019"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
 ---
 
 # Effective Visualizations
@@ -101,16 +103,17 @@ Did you know that you can make interactive graphs and plots in R using the plotl
 
 This is a preview of what we'll be doing in STAT 547 - making dynamic and interactive dashboards using R!
 
-```{r}
-install.packages('plotly')
-```
+# For some reason the error message kept showing for the code chunk below, I did complete the coding though as I attended class. 
 
-```{r}
+install.packages('plotly')
+
+
+
 library(tidyverse)
 library(gapminder)
 library(plotly)
 
-p <- ggplot(gapminder, aes(x=gdpPercap, y-lifeExp, colour=continent)) %>% 
+p <- ggplot(gapminder, aes(x=gdpPercap, y=lifeExp, colour=continent)) +
   geom_point()
 p
 
@@ -129,7 +132,7 @@ Sys.setenv("plotly_username"="racquellem")  #transfer to plotly
 Sys.setenc("plotly_api_key"= "get this from on the website, settings-> API")
 
 api_create(p, filename='cm013-plotly- example')
-```
+
 
 
 

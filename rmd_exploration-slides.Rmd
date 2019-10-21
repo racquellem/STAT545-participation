@@ -2,7 +2,7 @@
 title: "Untitled"
 author: "Racquelle Mangahas"
 date: "10/09/2019"
-output: ioslides_presentation
+output: 
 ---
 ```{r load,warning=FALSE, echo=FALSE}
 library(tibble)
