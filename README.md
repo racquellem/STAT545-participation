@@ -44,4 +44,4 @@ Below are the links to the corresponding html files that have been produced thro
 - [HTML_Effective Visualizations](https://racquellem.github.io/STAT545-participation/Class%20Meeting%2013%20Effective%20Visualizations/rm013-Effective-Visualizations.html)
 
 ### Class Meeting 14 (The Model-Fitting Paradigm in R)
-- [HTML_Model Fitting](https://racquellem.github.io/STAT545-participation/rm014_ModelFitting.html)
+- [HTML_Model Fitting](https://racquellem.github.io/STAT545-participation/Class%20Meeting%2014%20The%20Model-Fitting%20Paradigm/rm014_ModelFitting.html)
