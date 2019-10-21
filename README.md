@@ -26,7 +26,7 @@ Below are the links to the corresponding html files that have been produced thro
 - [HTML_Intro data wrangling, II](https://racquellem.github.io/STAT545-participation/Class%20Meeting%207%20Intro%20to%20data%20wrangling%2C%20Part%20II/rm007_exercise.html)
 
 ### Class Meeting 8 (Intro to plotting with ggplot2, Part II)
-- [HTML_ggplot, I](https://racquellem.github.io/STAT545-participation/Class%20Meeting%208%20Intro%20to%20plotting%20with%20ggplot2%2C%20Part%20II/rm008_exercise.html)
+- [HTML_ggplot, II](https://racquellem.github.io/STAT545-participation/Class%20Meeting%208%20Intro%20to%20plotting%20with%20ggplot2%2C%20Part%20II/rm008_exercise.html)
 
 ### Class Meeting 9 (Tidy Data and Pivoting)
 - [HTML_tidy data, pivoting](https://racquellem.github.io/STAT545-participation/Class%20Meeting%209%20Tidy%20data%20and%20pivoting%20/rm009_exercise.html)
