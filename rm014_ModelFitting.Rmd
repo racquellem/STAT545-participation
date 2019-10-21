@@ -1,5 +1,5 @@
 ---
-title: "rm013_ModelFitting"
+title: "rm014_ModelFitting"
 author: "Racquelle Sabrina Mangahas"
 date: "17/10/2019"
 output:
