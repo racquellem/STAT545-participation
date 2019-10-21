@@ -5,10 +5,6 @@ where I learned about various subjects such as data wrangling, ggplots (my favou
 
 Below are the links to the corresponding html files that have been produced throughout some class meetings:
 
-### Class Meeting 1 (Introduction to STAT545 and Github) & 3 (Authoring) | 
--[HTML_Navigating Github](https://racquellem.github.io/STAT545-participation/Class%20Meeting%201%20%26%203%20Introduction%20to%20STAT545:Github%20%26%20Authoring%20/navigating_github.html) 
--[HTML_Rmd Exploration](https://racquellem.github.io/STAT545-participation/Class%20Meeting%201%20%26%203%20Introduction%20to%20STAT545:Github%20%26%20Authoring%20/rmd_exploration.html) -  [HTML_Rmd Exploration Slides](https://racquellem.github.io/STAT545-participation/Class%20Meeting%201%20%26%203%20Introduction%20to%20STAT545:Github%20%26%20Authoring%20/rmd_exploration-slides.html) 
-
 ### Class Meeting 1 (Introduction to STAT545 and Github) & 3 (Authoring)
 - [HTML_Navigating Github](https://racquellem.github.io/STAT545-participation/Class%20Meeting%201%20%26%203%20Introduction%20to%20STAT545:Github%20%26%20Authoring%20/navigating_github.html)
 - [HTML_Rmd Exploration](https://racquellem.github.io/STAT545-participation/Class%20Meeting%201%20%26%203%20Introduction%20to%20STAT545:Github%20%26%20Authoring%20/rmd_exploration.html)
